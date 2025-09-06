@@ -1,4 +1,17 @@
-import express from "express";
+{
+  "name": "backend",
+  "version": "1.0.0",
+  "main": "server.js",
+  "type": "module",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.18.2",
+    "multer": "^1.4.5"
+  }
+}import express from "express";
 import multer from "multer";
 import cors from "cors";
 import path from "path";
